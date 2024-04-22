@@ -1,0 +1,10 @@
+namespace MathOperate
+{
+    [default_interface]
+    runtimeclass Class
+    {
+        Class();
+        Int32 MyProperty;
+        void Add(Int32 a, Int32 b,out Int32 c);
+    }
+}

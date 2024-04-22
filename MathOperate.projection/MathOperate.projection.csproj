@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MathOperate</RootNamespace>
+    <AssemblyName>MathOperate.projection</AssemblyName>
+        <Platforms>AnyCPU</Platforms>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CSWinRTIncludes>
+        MathOperate;
+    </CSWinRTIncludes>
+    <CsWinRTGeneratedFilesDir>$(OutDir)</CsWinRTGeneratedFilesDir>
+    <CSWinRTWindowsMetadata>local</CSWinRTWindowsMetadata>
+    <CsWinRTGenerateProjection>true</CsWinRTGenerateProjection>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="2.0.7" />
+  </ItemGroup> 
+
+  
+     <!-- CsWinRT input projects and assemblies -->
+  <ItemGroup>
+    <ProjectReference Include="..\MathOperate\MathOperate.vcxproj" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
