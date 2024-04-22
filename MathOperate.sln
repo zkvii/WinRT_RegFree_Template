@@ -5,13 +5,14 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathOperate", "MathOperate\MathOperate.vcxproj", "{843380E4-9DCF-4B6A-9930-C1436D0818AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinApp", "WinApp\WinApp.csproj", "{D42A15F2-D0A6-4225-BEFF-83095AE8FA6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinApp", "WinApp\WinApp.csproj", "{D42A15F2-D0A6-4225-BEFF-83095AE8FA6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperate.projection", "MathOperate.projection\MathOperate.projection.csproj", "{C0EB4436-B0DD-4198-A710-327AC5DCF0D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperate.projection", "MathOperate.projection\MathOperate.projection.csproj", "{C0EB4436-B0DD-4198-A710-327AC5DCF0D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D65BC87-CEA7-4F5C-8D38-4BEC5546E5BE}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
