@@ -57,3 +57,5 @@
 ```
 
 **then you can use the WINRT component in the C#/WinUI3 project**
+
+### as for details of related attributes, you can refer to Win2d source code, whichi is also a excellent project for learn wrl and c++/winrt
