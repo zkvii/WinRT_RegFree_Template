@@ -1,4 +1,4 @@
-# How to use a Reg_Free WINRT component in a C#/WINUI3 project
+﻿# How to use a Reg_Free WINRT component in a C#/WINUI3 project
 
 ### 1. Create a WINRT component in C++/CX
 
@@ -55,6 +55,8 @@
     </Extension>
   </Extensions>
 ```
+
+<font color="red">**[refer this to enable mix debug, breakpoints between c# and c++](https://learn.microsoft.com/zh-cn/visualstudio/debugger/how-to-debug-managed-and-native-code?view=vs-2022)**</font>
 
 **then you can use the WINRT component in the C#/WinUI3 project**
 
