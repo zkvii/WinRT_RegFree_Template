@@ -56,7 +56,7 @@
   </Extensions>
 ```
 
-<font color="red">**[refer this to enable mix debug, breakpoints between c# and c++](https://learn.microsoft.com/zh-cn/visualstudio/debugger/how-to-debug-managed-and-native-code?view=vs-2022)**</font>
+<font color="red" size=7>[refer this to enable mix debug, breakpoints between c# and c++](https://learn.microsoft.com/zh-cn/visualstudio/debugger/how-to-debug-managed-and-native-code?view=vs-2022)</font>
 
 **then you can use the WINRT component in the C#/WinUI3 project**
 
