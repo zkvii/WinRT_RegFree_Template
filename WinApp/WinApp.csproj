@@ -36,11 +36,15 @@
     <ProjectReference Include="..\MathOperate.projection\MathOperate.projection.csproj" />
   </ItemGroup>
 
+<ItemGroup>
+  <Content Include="../bin/MathOperate/MathOperate.dll" CopyToOutputDirectory="PreserveNewest"></Content>
+</ItemGroup>
+
   <ItemGroup>
   <!--both must be included-->
-    <Reference Include="../bin/MathOperate/MathOperate.dll">
-      <IsWinmdFile>false</IsWinmdFile>
-    </Reference>
+    <!-- <Reference Include="../bin/MathOperate/MathOperate.dll"> -->
+    <!--   <IsWinmdFile>false</IsWinmdFile> -->
+    <!-- </Reference> -->
     <Reference Include="../bin/MathOperate/MathOperate.winmd">
       <IsWinmdFile>true</IsWinmdFile>
     </Reference>
